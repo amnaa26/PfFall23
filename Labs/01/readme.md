@@ -5,7 +5,7 @@
 Completed my matriculation from DHACSS Ph - IV and intermediate from DACW Ph - VIII.
 
 ***
-#### QUESTION - 1 (Working Calculator available at [Click Here](https://scratch.mit.edu/projects/884850562))
+#### QUESTION - 1 (Another working Calculator with instructions is available at [Click Here](https://scratch.mit.edu/projects/884850562))
 ![image](https://github.com/amnaa26/PfFall23/assets/142903458/d0db8e2b-7a6d-4f21-a651-16073ee13622)
 ![image](https://github.com/amnaa26/PfFall23/assets/142903458/0cf6f3f4-c6fc-4c1a-aefb-109c0bfa655e)
 
