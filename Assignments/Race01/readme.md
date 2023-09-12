@@ -17,13 +17,13 @@
 ![WhatsApp Image 2023-08-28 at 21 43 07](https://github.com/amnaa26/PfFall23/assets/142903458/79234bd6-d1c2-4bcc-b52a-ce0d0ca0b1c6)
 
 ### Question-6:
-![WhatsApp Image 2023-09-04 at 21 51 15](https://github.com/amnaa26/PfFall23/assets/142903458/ab37b698-b123-4a19-8e23-0850c7fa73b4)
+![WhatsApp Image 2023-09-13 at 00 12 57](https://github.com/amnaa26/PfFall23/assets/142903458/318b3689-8c9a-4189-8d20-174ca6d33164)
 
 ### Question-7:
 ![WhatsApp Image 2023-09-04 at 22 14 53](https://github.com/amnaa26/PfFall23/assets/142903458/3427ea51-75dd-4650-8bb2-6d47508fe82d)
 
 ### Question-8:
-![WhatsApp Image 2023-09-04 at 21 51 16](https://github.com/amnaa26/PfFall23/assets/142903458/2fb48af8-add7-44b7-9cf3-bd77a6ad58bd)
+![WhatsApp Image 2023-09-13 at 00 12 57](https://github.com/amnaa26/PfFall23/assets/142903458/efee82ea-e4b2-4430-aab4-dea2d8b884eb)
 
 ### Question-9:
 ![WhatsApp Image 2023-09-05 at 21 06 04](https://github.com/amnaa26/PfFall23/assets/142903458/352b1eb1-320f-4ecf-8580-3d88020a2b4e)
