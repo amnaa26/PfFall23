@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
+/*
+Write a C program to find all roots of a quadratic equation, it is required to take user input 
+for a, b and c values. Find discriminant using formula
+discriminant=b ×b-(4×a×c)
+Compute roots based on the nature of discriminant.
+   */
+
 int main()
 {
    double a, b, c, discriminant, root1, root2, real, imaginary;
