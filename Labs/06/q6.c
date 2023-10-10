@@ -1,3 +1,9 @@
+/*
+* Programmer: Amna(23K-0066)
+* Date      : 07/10/2023
+* Description: This is task 6 file
+*/
+
 #include <stdio.h>
 
 int main () {
