@@ -1,6 +1,6 @@
 /*
  * Programmar: Amna(23K-0066)
- * Desc: Rotating an array
+ * Desc: Taking sum of given input number
  * Date: 10/10/2023
  */
 
