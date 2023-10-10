@@ -1,3 +1,9 @@
+/*
+ * Programmar: Amna(23K-0066)
+ * Desc: Dividing two numbers without using / operator
+ * Date: 10/10/2023
+ */
+
 #include <stdio.h>
 
 int main () {
