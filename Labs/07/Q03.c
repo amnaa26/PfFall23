@@ -1,6 +1,6 @@
 /*
  * Programmar: Amna(23K-0066)
- * Desc: Taking sum of given input number
+ * Desc: Counting the sum of digits of given input
  * Date: 10/10/2023
  */
 
