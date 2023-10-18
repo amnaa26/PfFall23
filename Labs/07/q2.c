@@ -1,3 +1,9 @@
+/*
+ * Programmar: Amna(23K-0066)
+ * Desc: Rotating elements of an array to the left by d positions
+ * Date: 10/10/2023
+ */
+
 #include <stdio.h>
 
 int main() {
