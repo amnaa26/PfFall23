@@ -8,7 +8,7 @@
 
 int main() {
 	int size, i, d;
-	int arr[4] = {6,1,5,4};
+	int arr[10000];
 	printf("Enter d:");
 	scanf("%d",&d);
 	printf("Enter the size of array:");
