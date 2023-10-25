@@ -14,5 +14,5 @@ int main() {
 	if(strlen(pass) >= 8 && strcmp(check,pass) == 0) 
 		printf("Login successful. Welcome!");
 	else 
-		printf("Login failed. In
+		printf("Login failed. Incorrect password.");
 }
