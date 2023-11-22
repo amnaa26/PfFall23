@@ -2,7 +2,7 @@
  * Programmer: Amna(23K-0066)
  * Date: 20/11/2023
  * Desc: Create a structure to specify data on students given below:
-		 Roll number, Name, Department, Course, Year of joining. Assume that there are not more than 450 students in the college.
+	 Roll number, Name, Department, Course, Year of joining. Assume that there are not more than 450 students in the college.
 */
 
 #include <stdio.h>
