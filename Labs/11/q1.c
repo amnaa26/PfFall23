@@ -26,19 +26,19 @@ int main() {
 	
 	//sample data
 	student[0].rollNumber = 873;
-	strcpy(student[0].Name, "Abc");
+	strcpy(student[0].Name, "Aliza");
 	strcpy(student[0].Department, "Physics");
 	strcpy(student[0].Course, "Atomic Physics");
 	student[0].year = 2019;
 	
 	student[1].rollNumber = 9870;
-	strcpy(student[1].Name, "Xyz");
+	strcpy(student[1].Name, "John");
 	strcpy(student[1].Department, "Computer Science");
 	strcpy(student[1].Course, "Data Science");
 	student[1].year = 2022;
 	
 	student[2].rollNumber = 9780;
-	strcpy(student[2].Name, "Blah");
+	strcpy(student[2].Name, "Bilal");
 	strcpy(student[2].Department, "Engineering");
 	strcpy(student[2].Course, "Mechanical Engineering");
 	student[2].year = 2019;
