@@ -8,46 +8,49 @@
 #include <stdlib.h>
 
 //Function for comparing files
-int compareFiles(FILE *file1, FILE *file2){
-	char ch1, ch2;
-	while((ch1 = fgetc(file1)) != EOF && (ch2 = fgetc(file2)) != EOF) {
-		if(ch1 != ch2)
-		     return 0;  	//File1 and File2 are not equal
-	}
-	if(ch1 != EOF || ch2 != EOF){
-		
-		//Files have different lengths
-		return 0; 
-	}
-	
-	//Both files are equal
-	return 1; 
-} //End function
+int compare(FILE *fptr1, FILE *fptr2) {
+    char ch1, ch2;
 
+    while ((ch1 = fgetc(fptr1)) != EOF && (ch2 = fgetc(fptr2)) != EOF) 
+	{
+        if (ch1 != ch2) 
+		{
+            return 0; // files are not equal
+        }// end if
+       if (ch1 != EOF || ch2 != EOF) 
+ 	   {
+        return 0; // files are not equal wrt length  
+       }// end if
 	
-int main () {
-	FILE *file1, *file2;
-	
-	//Opening files in binary mode
-	file1 = fopen("file1.txt", "rb");
-	file2 = fopen("file2.txt", "rb");
-	
-	if(file1 == NULL || file2 == NULL) {
-		perror("Error opening files");
-		return 1;
-	}
-	
-	//Comparing files
-	if(compareFiles(file1, file2)) {
-		printf("Files are equal.\n");
-	}
-	else{
-		printf("Files are not equal.\n");
-	}
-	
-	//Closing files
-	fclose(file1);
-	fclose(file2);
-	
-	return 0;
+    return 1; // Files are equal
+   }// end while
+}// end compare
+int main()
+{
+
+FILE* fptr1;
+FILE* fptr2;
+fptr1= fopen("file1.txt", "w");
+fptr2=fopen("file2.txt","w");
+fprintf(fptr1,"%s %s %s %s","this","is","a","test");
+fprintf(fptr2,"%s %s %s %s","this","is","a","test");
+fptr1= fopen("file1.txt", "rb");
+fptr2=fopen("file2.txt","rb");
+    if (fptr1 == NULL || fptr2 == NULL) 
+	{
+        perror("Error opening files\n");
+        return 1;
+    }//end if
+    if (compare(fptr1, fptr2)) 
+	{
+        printf("The files are equal.\n");
+    }// end if 
+	else 
+	{
+        printf("The files are not equal.\n");
+    }// end else
+    fclose(fptr1);
+    fclose(fptr2);
+
+    return 0;
 }
