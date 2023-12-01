@@ -1,14 +1,14 @@
-#### Team Members
+## Team Members
 Amna(23K-0066)
 Urooj Baloch(23K-0071)
 
-### Hangman Game
+# Hangman Game
 This is a simple implementation of the Hangman game written in C. The game uses two arrays:
 
-# Array 1: 
+#### Array 1: 
 Contains words for the game.
 
-# Array 2: 
+#### Array 2: 
 Contains the same words but with missing letters, forming the initial puzzle for the user.
 
 The game proceeds as follows:
@@ -24,11 +24,11 @@ The game proceeds as follows:
 
 ## Instructions
 
-# Compilation: 
+#### Compilation: 
 Compile the code using a C compiler.
-# Execution: 
+#### Execution: 
 Run the compiled program.
-# Gameplay: 
+#### Gameplay: 
 Follow the on-screen instructions to guess the missing letters and complete the word before running out of attempts.
 
 
