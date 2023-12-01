@@ -74,8 +74,8 @@ void printHangman(int mistakes) {
 
 
 int main() {
-    char list1[6][20] = {"a m n a", "b a n a n a", "k a m a n a", "h i", "b y e", "f a c e b o o k"};
-    char list2[6][20] = {"a _ _ a", "_ _ n _ n _", "k _ _ _ n _", "h _", "_ y _", "f _ _ _ _ o _ _"};
+    char list1[6][20] = {"p u z z l e", "b a n a n a", "c h a n g e", "h i", "b y e", "f a c e b o o k"};
+    char list2[6][20] = {"p _ _ _ l _", "_ _ n _ n _", "_ h _ _ g _", "h _", "_ y _", "f _ _ _ _ o _ _"};
     char input[4], letter;
     char compare[] = "yes";
     char body[6];
@@ -131,7 +131,7 @@ int main() {
 	        printHangman(mistake);
            }
 
-	   //checking if game is over or not
+	   //checking if user won or not
 	   if(strcmp(list1[RandomNumber], list2[RandomNumber]) == 0){
 		  printf("\n\nCONGRATULATION! YOU WON THE GAME!\n\n");
 		  break;
