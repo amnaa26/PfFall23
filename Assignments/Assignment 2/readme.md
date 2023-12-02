@@ -135,6 +135,123 @@
 11. End of loops.
 ****
 ### Question # 7 : 
+1. Declare variables 'i', 'j', 'a' as integers.
+2. Prompt the user to enter the number of shirts ('a').
+3. Read the input as 'a'.
+4. Declare a 2D array 'arr' to store the age and price of shirts.
+5. Loop 'i' from 0 to 'a - 1':
+
+       a. Prompt the user to enter the age for the 'i+1' shirt.
+       b. Read and store the input as 'arr[i][0]' (age).
+
+       c. Prompt the user to enter the price for the 'i+1' shirt.
+       d. Read and store the input as 'arr[i][1]' (price).
+7. Declare variables 'temp', 'temp2' as integers.
+8. Sort the 'arr' array based on age ('arr[i][0]') using nested loops and swapping.
+9. Sort the 'arr' array based on price ('arr[i][1]') using nested loops and swapping.
+10. Display the sorted array showing shirts' age and price.
+****
+### Question # 8 :
+1. Define a function 'calculate_persistence' that takes an integer 'num' as input:
+
+       a. Initialize 'persistence' as 0.
+       b. If 'num' is less than 10:
+           - Return 'persistence' (0) as the number is a single digit.
+       c. While 'num' is greater than or equal to 10:
+           - Initialize 'product' as 1.
+           - Create a temporary variable 'temp' to store 'num'.
+           - While 'temp' is greater than 0:
+               i. Multiply 'product' by the last digit of 'temp'.
+               ii. Update 'temp' by removing its last digit.
+           - Set 'num' as the calculated 'product'.
+           - Increment 'persistence' by 1.
+       d. Return 'persistence' as the final persistence value.
+ 3. In the main function:
+
+        a. Initialize 'num' as an integer.
+        b. Loop indefinitely:
+           - Prompt the user to enter a positive integer (EOF to quit).
+           - Read the input as 'num'.
+           - If 'num' is less than 1:
+               i. Display an error message asking for a positive integer.
+           - Else:
+               i. Calculate the persistence of 'num' using 'calculate_persistence' function.
+               ii. Display the calculated persistence for 'num'.
+           - Break the loop on EOF.
+    4. End
+    ****
+    ### Question # 9 :
+    1. Declare variables 'n', 'i', 'j', 'l', 'count' as integers
+    2. Prompt the user to enter the value of 'n' (size of NxN matrix)
+    3. Read and store the value of 'n' in the variable 'n'
+    4. Declare a 2D array 'arr' of size 'n x n'
+    5. Loop from 'i' to initialize the 'arr' matrix elements to 0:
+       
+          a. Loop from 'j' to initialize each row of the 'arr' matrix to 0:
+       
+          - Set arr[i][j] to 0
+
+     6. Initialize 'l' and 'count' to 0
+     7. Loop from 'l' to populate the upper-left side of the matrix:
+
+           a. Loop from 'i' to 'n/2 + n % 2':
+
+            - If 'i' equals 'l':
+                   i. Loop from 'j' to 'n - l':
+                     - Set arr[i][j] to 'count'
+                     - Increment 'count'
+
+            - If 'i' is greater than 'l' and less than 'n - 1 - l':
+                 - Set arr[i][n - 1 - l] to 'count'
+                 - Increment 'count'
+
+            - If 'i' equals 'n - 1 - l' and 'i' is not equal to '(n / 2 + n % 2) - 1':
+                  i. Loop from 'j' to 'l':
+                     - Set arr[i][j] to 'count'
+                     - Decrement 'count'
+
+    b. Loop from 'i' to 'n - 2 - l':
+
+        - Set arr[i][l] to 'count'
+        - Increment 'count'
+9. Display the matrix pattern 1 by iterating through 'arr' and printing its elements
+10. Loop to reset 'arr' matrix elements to 0:
+
+        a. Loop from 'i' to 'n':
+           b. Loop from 'j' to 'n':
+               - Set arr[i][j] to 0
+
+11. Display a newline
+12. Reset 'l' and 'count' to 0
+13. Loop from 'l' to populate the upper-right side of the matrix:
+  
+    a. Loop from 'i' to 'n / 2 + n % 2':
+
+        - If 'i' equals 'l':
+            i. Loop from 'j' to 'n - 1 - l':
+                - Set arr[i][j] to 'count'
+                - Decrement 'count'
+
+        - If 'i' is greater than 'l' and less than 'n - 1 - l':
+            - Set arr[i][l] to 'count'
+            - Decrement 'count'
+
+        - If 'i' equals 'n - 1 - l' and 'i' is not equal to '(n / 2 + n % 2) - 1':
+            i. Loop from 'j' to 'n - l':
+                - Set arr[i][j] to 'count'
+                - Decrement 'count'
+
+    b. Loop from 'i' to 'n - 2 - l':
+
+         - Set arr[i][n - 1 - l] to 'count'
+        - Decrement 'count'
+
+14. Display the matrix pattern 2 by iterating through 'arr' and printing its elements
+15. End
+*****
+
+
+
 
 
 
