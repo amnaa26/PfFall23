@@ -1,0 +1,43 @@
+/*
+*Name: Amna
+*Des: Program to find all the pairs in an array whose sum equals a targetted number
+*Date: 30/10/2023
+*/
+
+#include<stdio.h>
+
+int main() {
+    int n;
+    printf("\nEnter the size of the array: ");
+    scanf("%d", &n);
+    int arr[n];
+    int i, j;
+    int targetInt;
+    printf("\nEnter a number: ");
+    scanf("%d", &targetInt);
+
+    for (i = 0; i < n; i++) {
+        printf("\nEnter element number %d: ", i + 1);
+        scanf("%d", &arr[i]);
+    }
+
+    printf("\nThe inputted array is: \n");
+    for (i = 0; i < n; i++) {
+        printf("%d, ", arr[i]);
+    }
+
+    for (i = 0; i < n; i++) {
+        if (arr[i] == -1) {
+            break;
+        } else {
+            for (j = i; j < n; j++) {
+                if (arr[i] + arr[j + 1] == targetInt) {
+                    printf("\n(%d, %d) ", arr[i], arr[j + 1]);
+                }
+            }
+            arr[i] = -1;
+        }
+    }
+
+    return 0;
+}
