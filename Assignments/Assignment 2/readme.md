@@ -167,7 +167,7 @@
            - Increment 'persistence' by 1.
        d. Return 'persistence' as the final persistence value.
 
- 3. In the main function:
+ 2. In the main function:
 
         a. Initialize 'num' as an integer.
         b. Loop indefinitely:
@@ -179,7 +179,7 @@
                i. Calculate the persistence of 'num' using 'calculate_persistence' function.
                ii. Display the calculated persistence for 'num'.
            - Break the loop on EOF.
- 4. End
+ 3. End
  ****
 ### Question # 9 :
  1. Declare variables 'n', 'i', 'j', 'l', 'count' as integers
