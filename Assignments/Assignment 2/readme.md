@@ -166,6 +166,7 @@
            - Set 'num' as the calculated 'product'.
            - Increment 'persistence' by 1.
        d. Return 'persistence' as the final persistence value.
+
  3. In the main function:
 
         a. Initialize 'num' as an integer.
@@ -178,21 +179,20 @@
                i. Calculate the persistence of 'num' using 'calculate_persistence' function.
                ii. Display the calculated persistence for 'num'.
            - Break the loop on EOF.
-    4. End
-    ****
-    ### Question # 9 :
-    1. Declare variables 'n', 'i', 'j', 'l', 'count' as integers
-    2. Prompt the user to enter the value of 'n' (size of NxN matrix)
-    3. Read and store the value of 'n' in the variable 'n'
-    4. Declare a 2D array 'arr' of size 'n x n'
-    5. Loop from 'i' to initialize the 'arr' matrix elements to 0:
+ 4. End
+ ****
+### Question # 9 :
+ 1. Declare variables 'n', 'i', 'j', 'l', 'count' as integers
+ 2. Prompt the user to enter the value of 'n' (size of NxN matrix)
+ 3. Read and store the value of 'n' in the variable 'n'
+ 4. Declare a 2D array 'arr' of size 'n x n'
+ 5. Loop from 'i' to initialize the 'arr' matrix elements to 0:
        
-          a. Loop from 'j' to initialize each row of the 'arr' matrix to 0:
-       
-          - Set arr[i][j] to 0
+         a. Loop from 'j' to initialize each row of the 'arr' matrix to 0:
+            - Set arr[i][j] to 0
 
-     6. Initialize 'l' and 'count' to 0
-     7. Loop from 'l' to populate the upper-left side of the matrix:
+ 6. Initialize 'l' and 'count' to 0
+ 7. Loop from 'l' to populate the upper-left side of the matrix:
 
            a. Loop from 'i' to 'n/2 + n % 2':
 
