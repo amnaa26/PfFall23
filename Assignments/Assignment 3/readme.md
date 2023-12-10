@@ -10,5 +10,16 @@
 ***
 ### Question-2:
 ![q2](https://github.com/amnaa26/PfFall23/assets/142903458/3eac3003-f9e1-4150-8200-28fc9c5b7100)
+***
+### Question-3:
+#### Before Merging
+![q3 part A](https://github.com/amnaa26/PfFall23/assets/142903458/dad82529-e1fe-40db-bb5e-e7a2a6f5d32d)
+#### After Merging
+![q3 part c](https://github.com/amnaa26/PfFall23/assets/142903458/4a6cf74f-b865-4bce-98f3-ba76b7db21de)
+
+
+![q3 part B](https://github.com/amnaa26/PfFall23/assets/142903458/9766d9ab-a979-4ae2-974a-a23660b779bc)
+
+
 
 
