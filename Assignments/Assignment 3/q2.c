@@ -18,7 +18,7 @@ typedef struct {
 } Employee;
 
 char *depart_names[4] = {"HR", "Finance", "Marketing", "Logistics"};
-char *names[20] = {"John Doe", "Alice Johnson", "Michael Brown", "Sophia Williams", "James Davis", "Olivia Miller", "William Garcia", "Ava Rodriguez", "Robert Martinez", "Emily Wilson", "Charles Clark", "Ella Anderson", "David Thompson", "Grace Taylor", "Joseph White", "Amelia Moore", "Andrew Hill", "Natalie Jackson", "Christopher Harris", "Sophie Lee"};
+char *names[20] = {"John Doe", "Alice Johnson", "Michael Brown", "Sophia Williams", "James Davis", "Olivia Miller", "William Garcia", "Ava Rodriguez", "Robert Martinez", "Emily Wilson", "Charles Clark", "Ella Anderson", "David Thompson", "Grace Taylor", "Joseph White", "Amelia Moore", "Andrew Hill", "Natalie Jackson", "Charles Dicken", "Sophie Lee"};
 char *roles[5] = {"Director", "Executive", "Manager", "Employee", "Trainee"};
 
 
