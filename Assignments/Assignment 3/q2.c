@@ -18,9 +18,9 @@ typedef struct {
 } Employee;
 
 char *depart_names[4] = {"HR", "Finance", "Marketing", "Logistics"};
-char *names[20] = {""John Doe", "Alice Johnson", "Michael Brown", "Sophia Williams", "James Davis", "Olivia Miller", "William Garcia", "Ava Rodriguez", "Robert Martinez", "Emily Wilson", "Charles Clark", "Ella Anderson", "David Thompson", "Grace Taylor", "Joseph White", "Amelia Moore", "Andrew Hill", "Natalie Jackson", "Christopher Harris", "Sophie Lee"};
+char *names[20] = {"John Doe", "Alice Johnson", "Michael Brown", "Sophia Williams", "James Davis", "Olivia Miller", "William Garcia", "Ava Rodriguez", "Robert Martinez", "Emily Wilson", "Charles Clark", "Ella Anderson", "David Thompson", "Grace Taylor", "Joseph White", "Amelia Moore", "Andrew Hill", "Natalie Jackson", "Christopher Harris", "Sophie Lee"};
 char *roles[5] = {"Director", "Executive", "Manager", "Employee", "Trainee"};
-char *roles[5] = {"Director", "Executive", "Manager", "Employee", "Trainee"};
+
 
 Employee **createDepartments() {
     Employee **departments = (Employee **)malloc(sizeof(Employee *) * 4);
@@ -87,7 +87,9 @@ int getHighestStatsDepartment(Employee **departments) {
 
 int main() {
     srand((unsigned)time(NULL));
-
+    	
+    printf("Name: Amna\nID: 23K-0066\n\n");
+    
     Employee **departments = createDepartments();
 
     for (int i = 0; i < 4; i++) {
@@ -113,5 +115,4 @@ int main() {
 
     return 0;
 }
-
 
