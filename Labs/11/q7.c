@@ -1,3 +1,9 @@
+/*
+ * Programmer: Amna(23K-0066)
+ * Date: 1/12/23
+ * Desc making a library management system using structs
+ */
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
